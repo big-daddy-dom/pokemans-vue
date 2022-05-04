@@ -7,6 +7,6 @@ export class Pokeman {
     this.nickName = "LIL JEREMY"
     this.types = data.types
     this.user = data.user || null
-    this.img = data.img || data.sprites.other.dream_world.front_default
+    this.img = data.img || data.sprites.other.official&artwork.front_default
   }
 }
